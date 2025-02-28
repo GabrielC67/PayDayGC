@@ -78,7 +78,8 @@ public class PayDay {
      * USE this inside of pay() as well!
      */
     public String formatDollars(double amount) {
-        return "1.00";
+        //return %.2f;
+        return String.format("%.2f", amount);
     }
 
     /**

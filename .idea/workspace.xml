@@ -34,8 +34,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.PayDayTest.executor": "Run",
+    "TestNG.PayDayTest.test1deductTax.executor": "Run",
+    "TestNG.PayDayTest.test1formatDollars.executor": "Run",
     "TestNG.PayDayTest.test1grossPay.executor": "Run",
+    "TestNG.PayDayTest.test1netPay.executor": "Run",
+    "TestNG.PayDayTest.test2deductTax.executor": "Run",
     "TestNG.PayDayTest.test2grossPay.executor": "Run",
+    "TestNG.PayDayTest.test2netPay.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/gabe/Projects/PayDayGC"
@@ -46,8 +51,8 @@
       <recent name="rocks.zipcode" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PayDayTest.test2netPay">
-    <configuration name="PayDayTest.test1deductTax" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PayDayTest">
+    <configuration name="PayDayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -57,15 +62,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1deductTax" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1grossPay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test1formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +79,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1grossPay" />
+      <option name="METHOD_NAME" value="test1formatDollars" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test2deductTax" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test2formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -111,7 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test2deductTax" />
+      <option name="METHOD_NAME" value="test2formatDollars" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.PayDayTest.test1deductTax" />
-      <item itemvalue="TestNG.PayDayTest.test1grossPay" />
+      <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test1netPay" />
-      <item itemvalue="TestNG.PayDayTest.test2deductTax" />
+      <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test2netPay" />
+      <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
+        <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
         <item itemvalue="TestNG.PayDayTest.test2netPay" />
         <item itemvalue="TestNG.PayDayTest.test1netPay" />
-        <item itemvalue="TestNG.PayDayTest.test2deductTax" />
-        <item itemvalue="TestNG.PayDayTest.test1deductTax" />
-        <item itemvalue="TestNG.PayDayTest.test1grossPay" />
       </list>
     </recent_temporary>
   </component>
@@ -178,16 +182,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/rocks/zipcode/PayDay.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
